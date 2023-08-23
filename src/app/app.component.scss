@@ -1,0 +1,30 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body {
+  padding: 20px 0px;
+  margin: 0 auto;
+  max-width: 90%;
+  mat-form-field {
+    width: 100%;
+  }
+ .mat-elevation-z8{
+  width: 100%;
+  // overflow-x: auto !important;
+ }
+ table{
+  width: 100%;
+  .responsive-table{
+    width: 100%;
+    overflow-x: scroll !important;
+  }
+ }
+  
+  
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+}
